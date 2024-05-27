@@ -5,14 +5,14 @@ const Projects = () => {
     {
       id: 1,
       title: "Subh Clinic Website",
-      src: "/images/SubhClinic1.png",
+      src: "/images/SubhClinic1.PNG",
       demo: "https://doctor-clinic-neon.vercel.app/",
       code: "https://github.com/Shyamal8103/DoctorClinic",
     },
     {
       id: 2,
       title: "Stone Paper Scissor Game",
-      src: "/images/RockPaperScissor.png",
+      src: "/images/RockPaperScissor.PNG",
       demo: "https://stonepaperscissorgame.vercel.app/",
       code: "https://github.com/Shyamal8103/stonepaperscissorgame",
     },
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       id: 3,
       title: "Shopping Cart Website",
-      src: "/images/ShoppingApp.png",
+      src: "/images/ShoppingApp.PNG",
       demo: "https://shoping-cart-woad-ten.vercel.app/",
       code: "https://github.com/Shyamal8103/Shoping-Cart",
     },
