@@ -24,7 +24,7 @@ const Skills = () => {
   ];
   return (
     <div className="bg-gradient-to-b from-black to-gray-800">
-      <div className="felx flex-col px-12 py-10 justify-center">
+      <div className="felx flex-col md:px-12 py-10 justify-center">
         <h1 className="text-gray-500 text-center text-5xl">Skills</h1>
         <div className="w-full grid grid-cols-2 md:grid-cols-3  px-5 py-12 gap-10">
           {skillsList.map(({ id, src, title, style }) => {

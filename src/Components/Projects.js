@@ -26,7 +26,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="bg-gradient-to-b from-gray-800 to-black p-4">
+    <div className="bg-gradient-to-b from-gray-800 to-black sm:p-2 md:p-4">
       <div>
         <h1 className="text-center text-gray-500 text-5xl mb-20 ">Projects</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-5">
@@ -36,7 +36,7 @@ const Projects = () => {
                 key={id}
                 className="px-5 shadow-md shadow-gray-600 rounded-lg"
               >
-                <h2 className="text-gray-400 text-center capitalize my-2 text-2xl ">
+                <h2 className="text-gray-400 text-center capitalize my-2 md:text-2xl ">
                   {title}
                 </h2>
                 <img

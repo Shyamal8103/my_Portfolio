@@ -14,7 +14,9 @@ const Navbar = () => {
   return (
     <div className="w-full h-20 bg-black flex justify-between items-center p-5">
       <div>
-        <h1 className="text-amber-300 text-3xl italic">SHYAMAL BHATTACHARYA</h1>
+        <h1 className="text-amber-300 text-3xl sm:xl italic">
+          SHYAMAL BHATTACHARYA
+        </h1>
       </div>
       <ul className="hidden md:flex capitalize  gap-20">
         {navlist.map(({ id, title }) => {

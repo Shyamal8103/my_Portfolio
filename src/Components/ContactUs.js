@@ -60,7 +60,7 @@ const ContactUs = () => {
   useEffect(() => {}, [isEmail]);
   return (
     <div className="bg-gradient-to-b from-black to-gray-800 p-5">
-      <div className="flex flex-col justify-centerr items-center px-20">
+      <div className="flex flex-col justify-centerr items-center md:px-20">
         <div className="flex flex-col items-center">
           <h1 className="text-gray-400 text-5xl mt-20">Contact Us</h1>
           <p className="text-white text-center my-5">
@@ -73,7 +73,7 @@ const ContactUs = () => {
           </p>
         </div>
         <div className="md:flex w-full justify-between">
-          <div className=" m-8 w-1/2 p-10">
+          <div className=" m-8 w-1/2 md:p-10">
             <div className="flex items-center my-10">
               <div className="bg-white rounded-3xl p-4 hover:scale-105 duration-200">
                 <SiGooglemaps />
@@ -110,7 +110,7 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="flex  md:w-1/2  md:mt-8 p-9">
+          <div className="flex  md:w-1/2  md:mt-8 md:p-9">
             <div className="flex flex-col bg-white w-full border border-black items-start p-10">
               <h2 className="text-3xl my-3 font-bold">Send Message</h2>
               <form onSubmit={sentEmail} className="flex flex-col w-full my-2">
