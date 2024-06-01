@@ -27,7 +27,10 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-black to-gray-800 p-5">
+    <div
+      id="contact me"
+      className="bg-gradient-to-b from-black to-gray-800 p-5"
+    >
       <div className="flex flex-col justify-centerr items-center md:px-20">
         <div className="flex flex-col items-center">
           <h1 className="text-gray-400 text-5xl mt-20">Contact Us</h1>

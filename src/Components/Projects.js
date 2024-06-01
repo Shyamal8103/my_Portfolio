@@ -26,7 +26,10 @@ const Projects = () => {
     },
   ];
   return (
-    <div className="bg-gradient-to-b from-gray-800 to-black sm:p-2 md:px-20">
+    <div
+      id="projects"
+      className="bg-gradient-to-b from-gray-800 to-black sm:p-2 md:px-20"
+    >
       <div>
         <h1 className="text-center text-gray-500 text-5xl mb-20 ">Projects</h1>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-5">
