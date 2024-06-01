@@ -13,7 +13,7 @@ const Navbar = () => {
     { id: 1, title: "contact me" },
   ];
   return (
-    <div className=" fixed w-full h-20 bg-black flex justify-between items-center p-5">
+    <div className=" z-50 fixed w-full h-20 bg-black flex justify-between items-center p-5">
       <div>
         <h1 className="text-amber-300 text-3xl sm:xl italic">
           SHYAMAL BHATTACHARYA
@@ -52,8 +52,14 @@ const Navbar = () => {
         <ul className="flex flex-col justify-center items-center bg-gradient-to-b from-black to-gray-800 w-full h-screen bg-black absolute top-0 left-0">
           {navlist.map(({ id, title }) => {
             return (
-              <li className="capitalize cursor-pointer text-4xl py-4 text-gray-500">
-                <Link to={title}> {title}</Link>
+              <li
+                key={id}
+                className="capitalize cursor-pointer text-4xl py-4 text-gray-500"
+              >
+                <Link onClick={() => setNavMenu(!navMenu)} to={title}>
+                  {" "}
+                  {title}
+                </Link>
               </li>
             );
           })}
